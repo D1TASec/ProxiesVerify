@@ -1,0 +1,4 @@
+proxy.txt 为输入文件，内部保存需要验证的 ip,port【格式这样】
+VerifyURL.yaml 配置文件，内部是验证IP站点以及匹配响应包内容的正则表达式
+successful_proxies.txt 可用IP验证结果
+success_logs.txt 可用IP验证数据包日志

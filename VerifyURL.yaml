@@ -1,0 +1,26 @@
+http:
+  - url: "http://httpbin.org/ip"
+    regex: '"origin": "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})"'
+  - url: "http://icanhazip.com/"
+    regex: '([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})'
+  - url: "http://2024.ip138.com/"
+    regex: '您的IP地址是："([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})"'
+  - url: "http://inip.in/ip.json"
+    regex: '"ip": "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})"'
+https:
+  - url: "https://www.ip.cn/api/index?ip&type=0"
+    regex: '"ip": "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})"'
+  - url: "https://searchplugin.csdn.net/api/v1/ip/get?ip="
+    regex: '"ip": "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})"'
+  - url: "https://cn.bing.com/"
+    regex: "必应"
+  - url: "https://www.baidu.com/"
+    regex: "百度一下，你就知道"
+  - url: "https://www.ipplus360.com/getIP"
+    regex: '"data": "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})"'
+  - url: "https://ip.useragentinfo.com/json?ip="
+    regex: '"ip": "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})"'
+  - url: "https://api.vore.top/api/IPdata?ip="
+    regex: '"text": "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})"'
+  - url: "https://api.ip.sb/ip"
+    regex: '([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})'
